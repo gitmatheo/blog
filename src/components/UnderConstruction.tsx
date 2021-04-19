@@ -14,7 +14,7 @@ export function UnderConstruction(): ReactElement {
   const [isEnglish, setIsEnglish] = useState(true);
   const content = {
     name: 'Mateusz Dominiak',
-    position: 'Javascript Developer',
+    position: 'JavaScript/Front-end Developer',
     text: isEnglish ? 'This website is currently' : `Strona jest aktualnie`,
     underConstructionText: isEnglish ? 'under construction' : 'w budowie',
     oldWebsiteText: isEnglish
